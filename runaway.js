@@ -21,3 +21,7 @@ noButton.addEventListener("mouseover", () => {
     noButton.style.left = Math.floor(Math.random() * (rangeWidth + 1)) + "px";
     noButton.style.top = Math.floor(Math.random() * (rangeHeight + 1)) + "px";
 });
+
+noButton.addEventListener("click", () => {
+    alert("Well that wasn't supposed to happen 🙃");
+});

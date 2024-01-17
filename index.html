@@ -10,14 +10,16 @@
 
     <main>
         <section class="card-container" id="card-container">
-            <section class="card" id="card">
+            <section class="card rgb" id="card">
                 <section class="card-front">
                     
-                    <div id="heading">
-                        <h1> Tanmay Gupta <br> Computer Science <br> Class of 2026 </h1>
-                        <img src="Profile Picture.png" alt="Tanmay's Avatar">
+                    <div class="text-with-pic" id="name">
+                        <div id="name-text">
+                            <h1> <br> Tanmay Gupta <br> Computer Science <br> Class of 2026 </h1>
+                        </div>
+                        <img id="profile" src="Profile Picture.png" alt="Tanmay's Avatar">
                     </div>
-                    <p> Hi there! I'm Tanmay, a  
+                    <p> Hi there! I'm Tanmay
                         (Something I am passionate about)
                         <br> <br>
                         Click Me!
@@ -25,12 +27,31 @@
                 </section>
                 <section class="card-back">
                     <h1> A Little More About Me </h1>
+                    <div id="badminton" class="text-with-pic">
+                        <div class="text">
+                            <h2>Badminton</h2>
+                            <p>I'm an avid badminton player, having played competitively for the last 5 years.
+                                At my peak, I was among the top 40 players in the nation, and I continue to play 
+                                on the competitive team for GT Badminton Club, where we recently won the Southern Conference Regional Badminton Tournament.</p>
+                        </div>
+                        <img src="badminton-icon.png" alt="Badminton icon" style="width: 7vw; height:7vw;">
+                    </div>
+                    <div id="guitar" class="text-with-pic">
+                        <div class="text">
+                            <h2>Guitar</h2>
+                            <p>I also absolutely love playing the guitar. A self-taught guitarist, 
+                                playing the guitar is the perfect way for me to unwind after a long day. I like to say the guitar is my own form of meditation,
+                                as the melody transports me to a world of my own, free of all troubles and perfectly at peace.
+                            </p>
+                        </div>
+                        <img src="guitar-icon.png" alt="Guitar icon" style="width: 7vw; height:7vw;">
+                    </div>
                 </section>
             </section>
         </section>
 
         <section id="acceptance">
-            <h1> Can I join the Developer Bootcamp? </h1>
+            <h1 class="floating"> Can I join the Developer Bootcamp? </h1>
             <section class="buttons">
                 <button id="yes"> Yes &#128513 </button>
                 <button id="no"> No &#128532 </button>
