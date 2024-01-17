@@ -18,7 +18,7 @@ card.addEventListener("click", () => {
 yesButton.addEventListener("click", () => alert("Yay!! Can't wait to join the team!"));
 
 noButton.addEventListener("mouseover", () => {
-    noButton.style.left = Math.floor(Math.random() * (rangeWidth + 1)) + "px";
+    noButton.style.left = (Math.floor(Math.random() * (rangeWidth + 1)) + buttonWidth / 2) + "px";
     noButton.style.top = Math.floor(Math.random() * (rangeHeight + 1)) + "px";
 });
 

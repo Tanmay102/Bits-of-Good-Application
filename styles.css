@@ -151,3 +151,8 @@ h2 {
 #guitar {
     margin-top: 1vh;
 }
+
+#introduction {
+    font-size: 0.87em;
+    /* margin-top: -0.5vh; */
+}
