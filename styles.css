@@ -5,7 +5,6 @@
 }
 
 main {
-    /* background-color: #8eb9ce; */
     background-color: #0D2365;
     width: 100vw;
     height: 100vh;
@@ -17,7 +16,6 @@ main {
 }
 
 img {
-    /* border: 3px solid #22a6c0; */
     margin-left: 10vh;
     margin-bottom: 3vh;
     width: 10vw;
@@ -48,7 +46,6 @@ h2 {
 }
 
 .card-container {
-    /* display: inline-block; */
     width: 40vw;
     height: 50vh;
     perspective: 1000px;
@@ -146,6 +143,7 @@ h2 {
     z-index: 2;
     position: absolute;
     background-color: crimson;
+    cursor: pointer;
 }
 
 #guitar {
@@ -154,5 +152,4 @@ h2 {
 
 #introduction {
     font-size: 0.87em;
-    /* margin-top: -0.5vh; */
 }
